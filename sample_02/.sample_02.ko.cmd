@@ -1,0 +1,1 @@
+cmd_/home/kenji/work/rasp/linux_drivers/sample_02/sample_02.ko := arm-linux-gnueabihf-ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/kenji/work/rasp/linux_drivers/sample_02/sample_02.ko /home/kenji/work/rasp/linux_drivers/sample_02/sample_02.o /home/kenji/work/rasp/linux_drivers/sample_02/sample_02.mod.o ;  true
